@@ -7,12 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MathQuiz">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="262dp"
-        android:layout_height="73dp"
-        android:text="TextView 2"
-        android:textSize="50dp"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="175dp" />
+    <Button
+        android:id="@+id/Basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
 </androidx.constraintlayout.widget.ConstraintLayout>
